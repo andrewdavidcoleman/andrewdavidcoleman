@@ -1,0 +1,19 @@
+.tile-1 {
+  /*background-image: url("iceland-andrew.jpg");*/
+  /*background-size: contain;*/
+  background: white;
+}
+
+.tile-2 {
+  background: white;
+}
+
+.tile-3 {
+  background: white;
+}
+
+.iceland-andrew {
+  object-fit: fill;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}

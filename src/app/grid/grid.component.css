@@ -1,6 +1,24 @@
+.card-1 {
+  height: 30%;
+  width: 40%;
+}
+
+.card-2 {
+  width: 50%;
+  height: 70%;
+
+}
+
+.card-3 {
+
+}
+
+.image-container {
+  height: 20%;
+  width: 20%;
+}
+
 .tile-1 {
-  /*background-image: url("iceland-andrew.jpg");*/
-  /*background-size: contain;*/
   background: white;
 }
 
@@ -12,14 +30,6 @@
   background: white;
 }
 
-.iceland-andrew {
-  object-fit: fill;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
-}
-
 .krog-andrew {
-  height: 220px;
   border-radius: 100%;
-  border: solid 5px black;
 }

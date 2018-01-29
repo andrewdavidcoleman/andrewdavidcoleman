@@ -50,7 +50,8 @@ import { GridComponent } from './grid/grid.component';
     BrowserModule,
     BrowserAnimationsModule,
     MatGridListModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

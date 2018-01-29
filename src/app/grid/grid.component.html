@@ -1,5 +1,20 @@
+<!-- The layout of this page is built using the mat-grid-list component from Angular's Material design library-->
 <mat-grid-list cols="7" rowHeight="4:7">
-  <mat-grid-tile colspan="3" class="tile-1"><img class="krog-andrew" src="./assets/krog-andrew.jpg"></mat-grid-tile>
-  <mat-grid-tile colspan="4" rowspan="2" class="tile-2">Content</mat-grid-tile>
-  <mat-grid-tile colspan="3" class="tile-3">Selections</mat-grid-tile>
+
+  <!-- tile 1(top left) -->
+  <mat-grid-tile colspan="3" class="tile-1">
+    <img class="krog-andrew" src="./assets/krog-andrew.jpg">
+  </mat-grid-tile>
+
+  <!-- tile 2(right) -->
+  <mat-grid-tile colspan="4" rowspan="2" class="tile-2">
+    Content
+  </mat-grid-tile>
+
+  <!-- tile 3(top right) -->
+  <mat-grid-tile colspan="3" class="tile-3">
+    <!-- <button mat-raised-button>HEEEYY</button> -->
+    <a mat-raised-button routerLink="https://www.linkedin.com/in/andrewdavidcoleman/">Link</a>
+  </mat-grid-tile>
+
 </mat-grid-list>

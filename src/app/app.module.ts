@@ -38,13 +38,18 @@ import {
 
 import { AppComponent } from './app.component';
 import { GridComponent } from './grid/grid.component';
+import { AboutCardComponent } from './about-card/about-card.component';
+import { LinksCardComponent } from './links-card/links-card.component';
+import { ContentCardComponent } from './content-card/content-card.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    GridComponent
+    AboutCardComponent,
+    LinksCardComponent,
+    ContentCardComponent
   ],
   imports: [
     BrowserModule,

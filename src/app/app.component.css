@@ -1,3 +1,7 @@
+body {
+  background-image: './src/assets/forest.jpg'
+}
+
 .main-container {
   height: 1000px;
 }
@@ -21,4 +25,10 @@ app-link-card {
 
 app-content-card {
   flex: 1;
+}
+
+mat-toolbar {
+  top: 0;
+  position: fixed;
+  z-index:999;
 }

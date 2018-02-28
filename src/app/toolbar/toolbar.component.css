@@ -1,0 +1,22 @@
+mat-toolbar {
+  top: 0;
+  position: fixed;
+  z-index:999;
+  background-color: transparent;
+}
+img {
+  height: 60px;
+  filter: invert(100%);
+}
+
+.name {
+  margin-left: 100px;
+}
+
+.spacer {
+  width: 100%;
+}
+
+.spacer-right {
+  width: 20%;
+}

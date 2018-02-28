@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FlexLayoutModule } from "@angular/flex-layout";
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 // import { MatGridListModule } from '@angular/material/grid-list';
 import {
   MatAutocompleteModule,
@@ -37,10 +39,12 @@ import {
 } from '@angular/material';
 
 import { AppComponent } from './app.component';
-import { GridComponent } from './grid/grid.component';
+// import { GridComponent } from './grid/grid.component';
 import { AboutCardComponent } from './about-card/about-card.component';
 import { LinksCardComponent } from './links-card/links-card.component';
 import { ContentCardComponent } from './content-card/content-card.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 
 
@@ -49,14 +53,22 @@ import { ContentCardComponent } from './content-card/content-card.component';
     AppComponent,
     AboutCardComponent,
     LinksCardComponent,
-    ContentCardComponent
+    ContentCardComponent,
+    SidebarComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatGridListModule,
+    FlexLayoutModule,
+    FormsModule,
+    MatRadioModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

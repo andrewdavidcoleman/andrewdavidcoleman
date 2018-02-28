@@ -1,7 +1,9 @@
 <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav opened [mode]="mode.value">
+  <!-- Side nav portion -->
+  <mat-sidenav opened="true" [mode]=mode.value>
+    <!-- Header image -->
     <img mat-card-image class="krog-andrew" src="./assets/krog-andrew.jpg">
-    <p><button mat-button (click)="sidenav.toggle()">Toggle</button></p>
+    <!-- Radio buttons changing the side nav mode -->
     <p>
       <mat-radio-group [formControl]="mode">
         <label>Mode:</label>
@@ -10,10 +12,28 @@
         <mat-radio-button value="push">Push</mat-radio-button>
       </mat-radio-group>
     </p>
+    <!-- Toggle sidenav opened or closed -->
+    <!-- <mat-nav-list>
+      <mat-list-item>
+        <button mat-icon-button (click)="isExpanded = !isExpanded">
+          <mat-icon *ngIf="!isExpanded">chevron_right</mat-icon>
+          <mat-icon *ngIf="isExpanded">chevron_left</mat-icon>
+        </button>
+      </mat-list-item>
+      <mat-list-item>
+       <mat-icon mat-list-icon>home</mat-icon>
+         <p matLine *ngIf="isExpanded">Home</p>
+      </mat-list-item>
+    </mat-nav-list> -->
   </mat-sidenav>
+  <!-- Main content -->
   <mat-sidenav-content>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <!--Toggle sidenav  -->
+    <p>
+      <button mat-button (click)="sidenav.toggle()">sidenav.toggle()</button>
     </p>
   </mat-sidenav-content>
 </mat-sidenav-container>

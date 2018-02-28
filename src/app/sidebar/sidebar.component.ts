@@ -9,4 +9,6 @@ import { FormControl } from '@angular/forms';
 })
 export class SidebarComponent {
   mode = new FormControl('over');
+  // isExpanded = false;
+  events=[];
 }

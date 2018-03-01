@@ -63,6 +63,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     MatGridListModule,
     FlexLayoutModule,
     FormsModule,
+    MatCheckboxModule,
     MatIconModule,
     MatListModule,
     MatRadioModule,

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
 /** @title Implicit main content with two sidenavs */
@@ -7,8 +7,11 @@ import { FormControl } from '@angular/forms';
   templateUrl: 'sidebar.component.html',
   styleUrls: ['sidebar.component.css'],
 })
-export class SidebarComponent {
-  mode = new FormControl('over');
-  // isExpanded = false;
+export class SidebarComponent implements OnInit {
+
+  ngOnInit() {
+    console.log("On Init!!!");
+  }
+
   events=[];
 }

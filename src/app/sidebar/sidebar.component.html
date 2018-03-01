@@ -1,26 +1,17 @@
-<!-- <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav opened="true" mode="side">
-    <p>
-      SIDENAVSIDENAVSIDENAVSIDENAV
-    </p>
-  </mat-sidenav>
-  <mat-sidenav-content>
-    <p><mat-checkbox [(ngModel)]="opened">sidenav.opened</mat-checkbox></p>
-    <p><button mat-button (click)="sidenav.toggle()">sidenav.toggle()</button></p>
-    <p>Events:</p>
-    <div class="example-events">
-      <div *ngFor="let e of events">{{e}}</div>
-    </div>
-  </mat-sidenav-content>
-</mat-sidenav-container> -->
-
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #sidenav mode="side" opened="true">
-    Sidenav content
+    <div class="photo-container"></div>
+    <a href="http://www.linkedin.com/in/andrewdavidcoleman" target="_blank" class="linkedin-button" mat-fab></a>
+    <a href="http://www.github.com/andrewdavidcoleman" target="_blank" class="github-button" mat-fab></a>
+    <a href="http://www.instagram.com/andrewdavidcoleman" target="_blank" class="instagram-button" mat-fab></a>
+    <a href="mailto:andrewdavidcoleman@gmail.com" class="email-button" mat-fab></a>
   </mat-sidenav>
 
   <mat-sidenav-content>
-    <p><button mat-button (click)="sidenav.toggle()">sidenav.toggle()</button></p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <app-toolbar></app-toolbar>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <div><button mat-button (click)="sidenav.toggle()">Toggle</button></div>
   </mat-sidenav-content>
 </mat-sidenav-container>

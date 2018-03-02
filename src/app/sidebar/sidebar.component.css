@@ -11,27 +11,31 @@ mat-sidenav {
 }
 
 .linkedin-button {
-  background: url("../../assets/if_linkedin_1164533.png");
+  border: 5px solid rgb(236,82,129);
+  background: url("../../assets/pencil-linkedin.png");
   background-size: cover;
-  background-color: green;
+  background-color: rgb(236,82,129);
 }
 
 .github-button {
-  background: url("../../assets/if_github_1390302.png");
+  border: 5px solid rgb(236,82,129);
+  background: url("../../assets/pencil-github.png");
   background-size: cover;
-  background-color: green;
+  background-color: rgb(236,82,129);
 }
 
 .instagram-button {
-  background: url("../../assets/if_instagram_1164531.png");
+  border: 5px solid rgb(236,82,129);
+  background: url("../../assets/pencil-instagram.png");
   background-size: cover;
-  background-color: green;
+  background-color: rgb(236,82,129);
 }
 
 .email-button {
-  background: url("../../assets/if_mail_1164530.png");
+  border: 5px solid rgb(236,82,129);
+  background: url("../../assets/pencil-email.png");
   background-size: cover;
-  background-color: green;
+  background-color: rgb(236,82,129);
 }
 
 .social-icon {

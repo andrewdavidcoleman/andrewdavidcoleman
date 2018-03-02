@@ -3,6 +3,9 @@ mat-toolbar {
   position: fixed;
   z-index:999;
   background-color: transparent;
+  font-family: 'Amatic SC', cursive;
+  /*font-family: 'Reenie Beanie', cursive;*/
+  font-size: 60px;
 }
 img {
   height: 60px;

@@ -45,6 +45,7 @@ import { LinksCardComponent } from './links-card/links-card.component';
 import { ContentCardComponent } from './content-card/content-card.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 
 
@@ -55,7 +56,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     LinksCardComponent,
     ContentCardComponent,
     SidebarComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,
@@ -70,6 +72,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     MatButtonModule,
     MatCardModule,
     MatSidenavModule,
+    MatTabsModule,
     MatToolbarModule,
     ReactiveFormsModule
   ],

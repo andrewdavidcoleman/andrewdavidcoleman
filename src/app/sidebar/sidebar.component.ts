@@ -13,5 +13,6 @@ export class SidebarComponent implements OnInit {
     console.log("On Init!!!");
   }
 
+  isExpanded = false;
   events=[];
 }
